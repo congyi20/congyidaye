@@ -1,0 +1,19 @@
+Python 2.7
+android-ndk-r10e  下载地址：https://www.jianshu.com/p/c5b59cbe65f7 
+
+解压ndk：ndk$ chmod a+x android-ndk-r10c-darwin-x86_64.bin ndk$ ./android-ndk-r10c-darwin-x86_64.bin
+
+apache-ant-1.10.1。下载地址：https://ant.apache.org/bindownload.cgi 只能下载最新版本  注：最新版本必须jdk8以上才能适配
+jdk1.8.0_151.jdk	下载android studio 的时候下载。 要不然很麻烦
+Python 3.6
+
+
+.bash_profile
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
+
+export GRADLE_HOME=/Applications/Android\ Studio.app/Contents/gradle/gradle-4.1/ 
+export PATH=${PATH}:${GRADLE_HOME}/bin
